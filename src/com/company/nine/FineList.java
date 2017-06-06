@@ -8,8 +8,6 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class FineList<T> {
     private Node head;
-    private Lock headLock = new ReentrantLock();
-    private Lock currLock = new ReentrantLock();
 
     public boolean add(T item) {
         int key = item.hashCode();

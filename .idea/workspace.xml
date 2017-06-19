@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ca906ef-211d-42ed-8b12-da73f5979dc6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/nine/LazyList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/nine/LockFreeList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/nine/OptimisticList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/nine/FineList.java" afterPath="$PROJECT_DIR$/src/com/company/nine/FineList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/nine/LockFreeList.java" afterPath="$PROJECT_DIR$/src/com/company/nine/LockFreeList.java" />
     </list>
     <ignored path="Multipprocessor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +38,8 @@
       <file leaf-file-name="CoarseList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/nine/CoarseList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="78" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="69">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,12 +50,12 @@
       <file leaf-file-name="FineList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/nine/FineList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="118" column="9" selection-start-line="100" selection-start-column="7" selection-end-line="118" selection-end-column="9" />
+            <state relative-caret-position="416">
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="119" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2645#2646#0" expanded="true" />
-                <element signature="e#2680#2681#0" expanded="true" />
+                <element signature="e#2712#2713#0" expanded="true" />
+                <element signature="e#2749#2750#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,12 +64,10 @@
       <file leaf-file-name="OptimisticList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/nine/OptimisticList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="123" column="5" selection-start-line="103" selection-start-column="4" selection-end-line="123" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2870#2871#0" expanded="true" />
-                <element signature="e#2905#2906#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,14 +76,10 @@
       <file leaf-file-name="LazyList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/nine/LazyList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="485">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="115" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1263#1264#0" expanded="true" />
-                <element signature="e#2705#2706#0" expanded="true" />
-                <element signature="e#2740#2741#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,9 +88,11 @@
       <file leaf-file-name="LockFreeList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/nine/LockFreeList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="784">
+              <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,8 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496415024226</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="惰性同步和乐观同步">
+      <created>1496760121473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496760121473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -552,13 +552,64 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="乐观同步" />
-    <option name="LAST_COMMIT_MESSAGE" value="乐观同步" />
+    <MESSAGE value="惰性同步和乐观同步" />
+    <option name="LAST_COMMIT_MESSAGE" value="惰性同步和乐观同步" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/nine/CoarseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1679">
+          <caret line="78" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/nine/FineList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2507">
+          <caret line="118" column="9" selection-start-line="100" selection-start-column="7" selection-end-line="118" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/nine/OptimisticList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2622">
+          <caret line="123" column="5" selection-start-line="103" selection-start-column="4" selection-end-line="123" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/nine/LazyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -583,8 +634,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
-            <element signature="e#2680#2681#0" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -626,8 +677,8 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/nine/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/nine/CoarseList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="78" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="69">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,47 +687,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/nine/FineList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="118" column="9" selection-start-line="100" selection-start-column="7" selection-end-line="118" selection-end-column="9" />
+        <state relative-caret-position="416">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="119" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
-            <element signature="e#2680#2681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/nine/OptimisticList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="123" column="5" selection-start-line="103" selection-start-column="4" selection-end-line="123" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2870#2871#0" expanded="true" />
-            <element signature="e#2905#2906#0" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/nine/LazyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="485">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="115" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#2705#2706#0" expanded="true" />
-            <element signature="e#2740#2741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/nine/OptimisticList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/nine/LockFreeList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="784">
+          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

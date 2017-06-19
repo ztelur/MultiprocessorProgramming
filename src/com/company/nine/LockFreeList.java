@@ -74,7 +74,7 @@ public class LockFreeList<T> {
                 return false;
             } else {
                 Node succ = curr.next.getReference();
-                sinp = curr.next.compareAndSet(curr, succ, false, false);
+                sinp = curr.next.compareAndSet(curr, succ, false, true);
                 if (!sinp) {
                     continue;
                 }
